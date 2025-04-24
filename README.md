@@ -33,5 +33,5 @@ A contextual model asks the question: Does the L2 aggregate of a given covariate
 
 To answer this question, the first model typically introduced in the literature is the following:
 
-<p align="center">![MMC](https://latex.codecogs.com/svg.image?y_{ij}=\gamma_{00}&plus;\gamma_{10}(X_{ij}-\overline{X}_.j)&plus;\gamma_{10}\overline{X}_{.j}&plus;r_{ij}&plus;u_{.j})</p>
+<p align="center"> ![MMC](https://latex.codecogs.com/svg.image?y_{ij}=\gamma_{00}&plus;\gamma_{10}(X_{ij}-\overline{X}_.j)&plus;\gamma_{10}\overline{X}_{.j}&plus;r_{ij}&plus;u_{.j})</p>
 
