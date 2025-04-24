@@ -35,4 +35,6 @@ To answer this question, the first model typically introduced in the literature 
 
 ![MMC](https://latex.codecogs.com/svg.image?y_{ij}=\gamma_{00}&plus;\gamma_{10}(X_{ij}-\overline{X}_{.j})&plus;\gamma_{10}\overline{X}_{.j}&plus;r_{ij}&plus;u_{.j})
 
-Where $y_{ij}$
+Where
+- $y_{ij}$ represents student math achievement `math_ss_average`
+- 
