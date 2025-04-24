@@ -15,13 +15,13 @@ The TIMSS dataset has a heirarchical structure in which students are nested with
 The code that creates the analytic dataset can be found [here](create_timss_data.R). The outcome variable in these models is student mathematics achievement: `math_ss_average`. TIMSS creates five imputations of overall mathematics achievement for each student represented by the variables `BSMMAT01`, `BSMMAT02`, `BSMMAT03`, `BSMMAT04`, and `BSMMAT05`. `math_ss_average` is the mean of the math achievement imputations for each student. 
 
 In this illustration, math achievement is explained by a student-level math attitude construct. This construct is measured by the following variables:
--`BSBM19A`: "I enjoy learning mathematics." 
--`BSBM19B`: "I wish I did not have to study math."
--`BSBM19C`: "Math is boring"
--`BSBM19D`: "I like to learn interesting things."
--`BSBM19E`: "I like mathematics."
--`BSBM19F`: "I like numbers."
--`BSBM19G`: "I like math problems."
--`BSBM19H`: "I look forward to math class."
--`BSBM19I`: "Math is my favorite subject."
+- `BSBM19A`: "I enjoy learning mathematics." 
+- `BSBM19B`: "I wish I did not have to study math."
+- `BSBM19C`: "Math is boring"
+- `BSBM19D`: "I like to learn interesting things."
+- `BSBM19E`: "I like mathematics."
+- `BSBM19F`: "I like numbers."
+- `BSBM19G`: "I like math problems."
+- `BSBM19H`: "I look forward to math class."
+- `BSBM19I`: "Math is my favorite subject."
 Each item was a four point Likert scale: 1-"Agree a lot", 2-"Agree a little", 3-"Disagree a little", 4-"Disagree a lot". All items except `BSBM19B` and `BSBM19C` were reverse coded such that higher scores on the item represent a higher position on the math attitude construct. (Since `BSBM19B` and `BSBM19C` were negatively worded, I did not reverse code these items.)
