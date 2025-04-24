@@ -33,4 +33,4 @@ A contextual model asks the question: Does the L2 aggregate of a given covariate
 
 To answer this question, the first model typically introduced in the literature is the following:
 
-$$y_{ij} = \beta_{0} + \beta_{1}(X_{ij} - \overline{X}_{.j}) + r_{ij}$$
+$$y_{ij} = \beta_{0} + \beta_{1}\left(X_{ij} - \overline{X}_{.j}\right) + r_{ij}$$
