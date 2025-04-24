@@ -26,3 +26,7 @@ In this illustration, math achievement is explained by a student-level math atti
 - `BSBM19I`: "Math is my favorite subject."
   
 Each item was a four point Likert scale: 1-"Agree a lot", 2-"Agree a little", 3-"Disagree a little", 4-"Disagree a lot". All items except `BSBM19B` and `BSBM19C` were reverse coded such that higher scores on the item represent a higher position on the math attitude construct. (Since `BSBM19B` and `BSBM19C` were negatively worded, I did not reverse code these items.)
+
+## Contextual Models and Sources of Error
+
+A contextual model asks the question: Does the L2 aggregate of a given covariate influence the L1 outcome above and beyond the influence of the L1 value of that covariate? In the words of the models in this repositor: Does the average math attitude of school affect a student's math achievement once their own math attitude has been accounted for?
