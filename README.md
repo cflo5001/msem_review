@@ -30,3 +30,5 @@ Each item was a four point Likert scale: 1-"Agree a lot", 2-"Agree a little", 3-
 ## Contextual Models and Sources of Error
 
 A contextual model asks the question: Does the L2 aggregate of a given covariate influence the L1 outcome above and beyond the influence of the L1 value of that covariate? In the words of the models in this repositor: Does the average math attitude of school affect a student's math achievement once their own math attitude has been accounted for?
+
+To answer this question, the first model typically introduced in the literature is the following:
