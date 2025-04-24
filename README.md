@@ -38,4 +38,4 @@ To answer this question, the first model typically introduced in the literature 
 Where
 - $y_{ij}$ represents student math achievement `math_ss_average`
 - $X_{ij}$ represents the students average over the nine math attitude items
-- $\overline{X}_{.j} represents the average over all items and all studetns in school $j$.
+- $\overline{X}_{.j}$ represents the average over all items and all studetns in school $j$.
