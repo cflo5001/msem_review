@@ -1,0 +1,90 @@
+--------------------------------------------------------------------------------
+Manifest-Measurement/Latent-Aggregation Model Paremeter Estimates with Fit Indicies
+                 npar                  fmin                 chisq 
+                9.000                 0.503                    NA 
+                   df                pvalue        baseline.chisq 
+               -1.000                    NA                    NA 
+          baseline.df       baseline.pvalue                   cfi 
+                   NA                    NA                    NA 
+                  tli                  nnfi                   rfi 
+                   NA                    NA                    NA 
+                  nfi                  pnfi                   ifi 
+                   NA                    NA                    NA 
+                  rni                  logl     unrestricted.logl 
+                   NA            -18065.476            -18065.476 
+                  aic                   bic                ntotal 
+            36148.951             36211.513              7718.000 
+                 bic2                 rmsea        rmsea.ci.lower 
+            36182.913                 0.000                    NA 
+       rmsea.ci.upper        rmsea.ci.level          rmsea.pvalue 
+                   NA                 0.900                    NA 
+       rmsea.close.h0 rmsea.notclose.pvalue     rmsea.notclose.h0 
+                0.050                    NA                 0.080 
+                 srmr           srmr_within          srmr_between 
+                0.000                 0.000                 0.000 
+lavaan 0.6-19 ended normally after 33 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        10
+  Number of equality constraints                     1
+
+                                                  Used       Total
+  Number of observations                          7718        8074
+  Number of clusters [IDSCHOOL]                    209            
+
+Model Test User Model:
+                                                      
+  Test statistic                                    NA
+  Degrees of freedom                                -1
+  P-value (Unknown)                                 NA
+
+Parameter Estimates:
+
+  Standard errors                             Sandwich
+  Information bread                           Observed
+  Observed information based on                Hessian
+
+
+Level 1 [within]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ATT_W =~                                            
+    math_att  (c1)    0.766    0.048   15.993    0.000
+
+Regressions:
+                    Estimate  Std.Err  z-value  P(>|z|)
+  math_ss_average ~                                    
+    ATT_W     (b1)     0.174    0.019    9.241    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+    ATT_W             1.004    0.129    7.800    0.000
+   .math_att          0.000                           
+   .math_ss_averag    0.559    0.020   28.161    0.000
+
+
+Level 2 [IDSCHOOL]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ATT_B =~                                            
+    math_att  (c1)    0.766    0.048   16.002    0.000
+
+Regressions:
+                    Estimate  Std.Err  z-value  P(>|z|)
+  math_ss_average ~                                    
+    ATT_B     (b2)     0.968    0.246    3.933    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .math_att         -0.006    0.016   -0.389    0.697
+   .math_ss_averag   -0.004    0.044   -0.084    0.933
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+    ATT_B             0.066    0.008    8.295    0.000
+   .math_att          0.000                           
+   .math_ss_averag    0.318    0.030   10.583    0.000
+

@@ -1,0 +1,37 @@
+---------------------------------------------------------------------------
+Doubly Manifest Model Parameter Estimates and Fit Indicies
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: math_ss_average ~ centered_math_att + school_math_att + (1 |  
+    IDSCHOOL)
+   Data: data
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  18070.4   18105.2   -9030.2   18060.4      7713 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.8498 -0.6608  0.0232  0.6858  3.1029 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ IDSCHOOL (Intercept) 0.3333   0.5773  
+ Residual             0.5592   0.7478  
+Number of obs: 7718, groups:  IDSCHOOL, 209
+
+Fixed effects:
+                  Estimate Std. Error t value
+(Intercept)        0.00320    0.04100   0.078
+centered_math_att  0.22779    0.01124  20.257
+school_math_att    0.88749    0.16895   5.253
+
+Correlation of Fixed Effects:
+            (Intr) cntr__
+cntrd_mth_t 0.000        
+schl_mth_tt 0.032  0.000 
+---------------------------------------------------------------------------
+Statistics for Computing L2 Reliability and Bias
+ICC: 0.373441416434555
+Average Group Size: 38.2654028436019
+L2 Reliability of Group Mean: 0.957995447906947
+Estimated Contextual Effect: 0.659697886131783
+Contextual Effect Bias Factor: -0.0420045520930528

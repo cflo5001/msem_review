@@ -1,0 +1,142 @@
+--------------------------------------------------------------------------------
+Latent-Measurement/Manifest-Aggregation Model Paremeter Estimates with Fit Indicies
+                 npar                  fmin                 chisq 
+               52.000                 1.173              4115.377 
+                   df                pvalue        baseline.chisq 
+               77.000                 0.000             53683.388 
+          baseline.df       baseline.pvalue                   cfi 
+               90.000                 0.000                 0.925 
+                  tli                  nnfi                   rfi 
+                0.912                 0.912                 0.910 
+                  nfi                  pnfi                   ifi 
+                0.923                 0.790                 0.925 
+                  rni                  logl     unrestricted.logl 
+                0.925            -77590.806            -75533.117 
+                  aic                   bic                ntotal 
+           155285.612            155644.334              7321.000 
+                 bic2                 rmsea        rmsea.ci.lower 
+           155479.089                 0.085                 0.082 
+       rmsea.ci.upper        rmsea.ci.level          rmsea.pvalue 
+                0.087                 0.900                 0.000 
+       rmsea.close.h0 rmsea.notclose.pvalue     rmsea.notclose.h0 
+                0.050                 1.000                 0.080 
+                 srmr           srmr_within          srmr_between 
+                0.130                 0.056                 0.074 
+lavaan 0.6-19 ended normally after 77 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        61
+  Number of equality constraints                     9
+
+                                                  Used       Total
+  Number of observations                          7321        8074
+  Number of clusters [IDSCHOOL]                    209            
+
+Model Test User Model:
+                                                      
+  Test statistic                              4115.377
+  Degrees of freedom                                77
+  P-value (Chi-square)                           0.000
+
+Parameter Estimates:
+
+  Standard errors                             Sandwich
+  Information bread                           Observed
+  Observed information based on                Hessian
+
+
+Level 1 [within]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  ATT_W =~                                                              
+    BSBM19A   (c1)    0.912    0.026   34.871    0.000    0.877    0.876
+    BSBM19B   (c2)    0.521    0.023   22.829    0.000    0.501    0.499
+    BSBM19C   (c3)    0.563    0.024   23.580    0.000    0.541    0.539
+    BSBM19D   (c4)    0.717    0.023   31.071    0.000    0.689    0.689
+    BSBM19E   (c5)    0.939    0.026   36.245    0.000    0.903    0.903
+    BSBM19F   (c6)    0.838    0.023   35.761    0.000    0.805    0.810
+    BSBM19G   (c7)    0.910    0.025   35.923    0.000    0.874    0.877
+    BSBM19H   (c8)    0.859    0.028   30.745    0.000    0.825    0.826
+    BSBM19I   (c9)    0.894    0.026   34.198    0.000    0.859    0.858
+
+Regressions:
+                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  math_ss_average ~                                                      
+    ATT_W    (b_w)     0.210    0.015   13.639    0.000    0.202    0.266
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .BSBM19A          -0.002    0.020   -0.106    0.916   -0.002   -0.002
+   .BSBM19B           0.003    0.018    0.148    0.882    0.003    0.003
+   .BSBM19C           0.000    0.017    0.025    0.980    0.000    0.000
+   .BSBM19D          -0.001    0.017   -0.076    0.940   -0.001   -0.001
+   .BSBM19E           0.002    0.019    0.113    0.910    0.002    0.002
+   .BSBM19F          -0.004    0.017   -0.238    0.812   -0.004   -0.004
+   .BSBM19G           0.000    0.018    0.014    0.989    0.000    0.000
+   .BSBM19H          -0.003    0.020   -0.169    0.866   -0.003   -0.003
+   .BSBM19I          -0.001    0.020   -0.065    0.949   -0.001   -0.001
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    ATT_W             0.923    0.050   18.607    0.000    1.000    1.000
+   .BSBM19A           0.232    0.008   29.351    0.000    0.232    0.232
+   .BSBM19B           0.757    0.017   44.864    0.000    0.757    0.751
+   .BSBM19C           0.717    0.019   37.668    0.000    0.717    0.710
+   .BSBM19D           0.526    0.011   49.957    0.000    0.526    0.525
+   .BSBM19E           0.184    0.007   25.230    0.000    0.184    0.184
+   .BSBM19F           0.341    0.009   36.907    0.000    0.341    0.345
+   .BSBM19G           0.229    0.008   29.606    0.000    0.229    0.231
+   .BSBM19H           0.318    0.011   29.868    0.000    0.318    0.318
+   .BSBM19I           0.263    0.007   36.904    0.000    0.263    0.263
+   .math_ss_averag    0.538    0.019   28.800    0.000    0.538    0.929
+
+
+Level 2 [IDSCHOOL]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  ATT_B =~                                                              
+    sBSBM19A  (c1)    0.912    0.026   34.871    0.000    0.268    0.940
+    sBSBM19B  (c2)    0.521    0.023   22.829    0.000    0.153    0.668
+    sBSBM19C  (c3)    0.563    0.024   23.578    0.000    0.166    0.719
+    sBSBM19D  (c4)    0.717    0.023   31.073    0.000    0.211    0.778
+    sBSBM19E  (c5)    0.939    0.026   36.241    0.000    0.276    0.962
+    sBSBM19F  (c6)    0.838    0.023   35.760    0.000    0.246    0.887
+    sBSBM19G  (c7)    0.910    0.025   35.921    0.000    0.268    0.930
+    sBSBM19H  (c8)    0.859    0.028   30.746    0.000    0.253    0.892
+    sBSBM19I  (c9)    0.894    0.026   34.197    0.000    0.263    0.924
+
+Regressions:
+                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  math_ss_average ~                                                      
+    ATT_B    (b_b)     0.594    0.143    4.141    0.000    0.175    0.297
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .sBSBM19A         -0.008    0.020   -0.378    0.705   -0.008   -0.027
+   .sBSBM19B         -0.007    0.018   -0.419    0.675   -0.007   -0.032
+   .sBSBM19C         -0.004    0.018   -0.239    0.811   -0.004   -0.018
+   .sBSBM19D         -0.008    0.019   -0.440    0.660   -0.008   -0.031
+   .sBSBM19E         -0.012    0.019   -0.619    0.536   -0.012   -0.042
+   .sBSBM19F         -0.016    0.018   -0.893    0.372   -0.016   -0.056
+   .sBSBM19G         -0.016    0.019   -0.860    0.390   -0.016   -0.056
+   .sBSBM19H         -0.007    0.021   -0.352    0.725   -0.007   -0.026
+   .sBSBM19I         -0.009    0.020   -0.426    0.670   -0.009   -0.030
+   .math_ss_averag    0.023    0.043    0.520    0.603    0.023    0.038
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    ATT_B             0.087    0.005   18.491    0.000    1.000    1.000
+   .sBSBM19A          0.009    0.001    7.324    0.000    0.009    0.116
+   .sBSBM19B          0.029    0.003   10.062    0.000    0.029    0.554
+   .sBSBM19C          0.026    0.003    9.434    0.000    0.026    0.484
+   .sBSBM19D          0.029    0.003    9.664    0.000    0.029    0.395
+   .sBSBM19E          0.006    0.001    6.611    0.000    0.006    0.074
+   .sBSBM19F          0.016    0.003    5.830    0.000    0.016    0.213
+   .sBSBM19G          0.011    0.002    6.202    0.000    0.011    0.136
+   .sBSBM19H          0.016    0.002    9.370    0.000    0.016    0.205
+   .sBSBM19I          0.012    0.001    8.765    0.000    0.012    0.146
+   .math_ss_averag    0.317    0.028   11.427    0.000    0.317    0.912
+
