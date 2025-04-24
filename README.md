@@ -24,4 +24,5 @@ In this illustration, math achievement is explained by a student-level math atti
 - `BSBM19G`: "I like math problems."
 - `BSBM19H`: "I look forward to math class."
 - `BSBM19I`: "Math is my favorite subject."
+  
 Each item was a four point Likert scale: 1-"Agree a lot", 2-"Agree a little", 3-"Disagree a little", 4-"Disagree a lot". All items except `BSBM19B` and `BSBM19C` were reverse coded such that higher scores on the item represent a higher position on the math attitude construct. (Since `BSBM19B` and `BSBM19C` were negatively worded, I did not reverse code these items.)
