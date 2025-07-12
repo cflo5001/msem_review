@@ -13,7 +13,7 @@ achievement_data <- achievement_data[, vars]
 pvs <- c("BSMMAT01", "BSMMAT02", "BSMMAT03", "BSMMAT04", "BSMMAT05")
 
 achievement_data$math_ss_average <- rowMeans(achievement_data[, pvs], na.rm = TRUE)
-#achievement_data <- achievement_data[, !names(achievement_data) %in% pvs]
+#achievement_data <- achievement_data[, !names(achievement_data) %in% pvs] #this command is not accurate, the ! needs to be removed.
 
 #achievement_data %>%
 #	head(10)
